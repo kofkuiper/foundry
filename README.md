@@ -16,6 +16,10 @@
 
 `forge test`
 
+## Deploy Smart Contract
+
+`forge create StakeContract --private-key ${PRIVATE-KEY} --rpc-url <RPC-URL>`
+
 ## Install library
 
 `forge install <lib-name>`
@@ -26,4 +30,3 @@
 
   - After installed we need to do `remapping` in `foundry.toml`
     `remappings = ["@openzeppelin/=lib/openzeppelin-contracts/"]`
-
