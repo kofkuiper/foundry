@@ -12,13 +12,13 @@
 
 `forge build`
 
+## Deploy Smart Contract
+
+`forge create <Contract-name> --private-key <PRIVATE-KEY> --rpc-url <RPC-URL>`
+
 ## Test Smart Contract
 
 `forge test`
-
-## Deploy Smart Contract
-
-`forge create StakeContract --private-key ${PRIVATE-KEY} --rpc-url <RPC-URL>`
 
 ## Install library
 
